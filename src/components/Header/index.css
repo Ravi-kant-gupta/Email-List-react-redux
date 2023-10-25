@@ -1,0 +1,37 @@
+.header-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding-left: 20px; */
+}
+.read-button{
+  margin-left: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 70px;
+  height: 30px;
+}
+.unread-button{
+  margin-left: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 70px;
+  height: 30px;
+}
+.favorites-button{
+  margin-left: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 90px;
+  height: 30px;
+}
+.filter-button{
+  border-radius: 15px;
+  background-color: #E1E4EA;
+}

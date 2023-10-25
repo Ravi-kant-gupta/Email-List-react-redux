@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.email-data-list{
+    list-style-type: none;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0px;
+    margin-right: 10px;
+}
+.width-list{
+    width: 35%;
+    padding: 0px;
+    list-style-type: none;
+    margin-right: 10px;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    border: 1px solid #CFD2DC;
+    border-radius: 10px;
+    background-color: #F4F5F9;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.select-favorite{
+    background-color: #CFD2DC;
+}
+.first-letter{
+    /* align-self: flex-start; */
+    border-radius: 50%;
+    background-color: #E54065;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.first-letter p{
+    margin: 10px 16px 10px 16px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.email-content{
+    font-size: 14px;
+    padding: 10px;
+    overflow: hidden;
+}
+.email-content p{
+    margin: 0px 0px 5px 0px;
+    font-family: "Roboto";
+    overflow: hidden;
+    text-overflow: ellipsis; /* enables ellipsis */
+  white-space: nowrap;
+}
+.email-content p span{
+    color: #636363;
+    font-weight: bold;
+}
+.favorite-mark{
+    color: #E54065;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+.date-favorite{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
